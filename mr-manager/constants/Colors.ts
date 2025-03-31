@@ -1,26 +1,40 @@
 /**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * Color scheme for the inventory management app
  */
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+// Main color palette based on style guide
+const PRIMARY = "#2C3E50"; // Navy blue
+const SECONDARY = "#27AE60"; // Success green
+const WARNING = "#E67E22"; // Orange
+const BACKGROUND = "#F5F8FA"; // Light grey
+const TEXT = "#34495E"; // Dark grey
+const ACCENT = "#3498DB"; // Blue
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: TEXT,
+    background: BACKGROUND,
+    tint: PRIMARY,
+    success: SECONDARY,
+    warning: WARNING,
+    accent: ACCENT,
+    icon: TEXT,
+    tabIconDefault: "#687076",
+    tabIconSelected: PRIMARY,
+    cardBackground: "#FFFFFF",
+    border: "#E1E8ED",
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    text: "#ECEDEE",
+    background: "#151718",
+    tint: ACCENT,
+    success: SECONDARY,
+    warning: WARNING,
+    accent: ACCENT,
+    icon: "#9BA1A6",
+    tabIconDefault: "#9BA1A6",
+    tabIconSelected: ACCENT,
+    cardBackground: "#1E2428",
+    border: "#38444D",
   },
 };
