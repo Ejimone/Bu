@@ -283,7 +283,7 @@ export default function NewSaleScreen() {
           </Text>
           <View style={styles.inputGroup}>
             <Text style={[styles.label, { color: colors.text }]}>
-              Customer Name
+              Customer Name:
             </Text>
             <TextInput
               style={[
