@@ -66,9 +66,7 @@ export default function LoginScreen() {
           style={styles.logo}
           resizeMode="contain"
         />
-        <Text style={[styles.title, { color: colors.text }]}>
-          Inventory Manager
-        </Text>
+        <Text style={[styles.title, { color: colors.text }]}>John_Kech</Text>
         <Text style={[styles.subtitle, { color: colors.icon }]}>
           Track your business inventory with ease
         </Text>
